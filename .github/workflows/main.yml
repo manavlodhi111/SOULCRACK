@@ -15,4 +15,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: chmod +x *
-      - run: sudo ./soul ip port time
+      - run: sudo ./soul 20.204.191.71 10235 180
